@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelNet.SpeedTest", "ParallelNet.SpeedTest.csproj", "{68A77BF6-7899-4F5E-8044-423DDC86C917}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelNet.PSnD", "..\PSnD\ParallelNet.PSnD.csproj", "{5977DCD7-528D-492D-85D6-7567C5EA5263}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{68A77BF6-7899-4F5E-8044-423DDC86C917}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A77BF6-7899-4F5E-8044-423DDC86C917}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A77BF6-7899-4F5E-8044-423DDC86C917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5977DCD7-528D-492D-85D6-7567C5EA5263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5977DCD7-528D-492D-85D6-7567C5EA5263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5977DCD7-528D-492D-85D6-7567C5EA5263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5977DCD7-528D-492D-85D6-7567C5EA5263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
