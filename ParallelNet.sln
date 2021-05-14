@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelNet", "ParallelNet.csproj", "{68A77BF6-7899-4F5E-8044-423DDC86C917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68A77BF6-7899-4F5E-8044-423DDC86C917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A77BF6-7899-4F5E-8044-423DDC86C917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A77BF6-7899-4F5E-8044-423DDC86C917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A77BF6-7899-4F5E-8044-423DDC86C917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5CB3802-BF98-4568-BE03-4E2123154A06}
+	EndGlobalSection
+EndGlobal
