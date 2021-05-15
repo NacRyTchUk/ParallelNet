@@ -1,17 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Threading;
 
-namespace PSnD
+namespace ParallelNet.SpeedTest
 {
-    public class Program
+    public  class Market
     {
-        static void Main(string[] args)
+        public Market()
         {
             Store store = new Store();
             new Thread(() => new Producer(store).run()).Start();
             new Thread(() => new Consumer(store).run()).Start();
         }
     }
+
     // Класс Магазин, хранящий произведенные товары
     public class Store
     {
@@ -86,6 +89,8 @@ namespace PSnD
         {
             for (int i = 1; i < 6; i++)
                 store.get();
+            Console.WriteLine("=======================");
+            Console.WriteLine("=======================");
         }
     }
 }
